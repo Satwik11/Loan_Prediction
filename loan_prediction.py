@@ -3,7 +3,7 @@ from PIL import Image
 import pickle
 
 
-model = pickle.load(open('models.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 def run():
     img1 = Image.open('E:/HDFC.png')
